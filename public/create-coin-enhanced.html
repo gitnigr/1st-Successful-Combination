@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="/_next/static/media/569ce4b8f30dc480-s.p.woff2"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/media/93f479601ee12b01-s.p.woff2"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/89420e95f079f7be.css?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      data-precedence="next"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/style.css?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      data-precedence="next"
+    />
+    <link
+      rel="preload"
+      as="script"
+      fetchPriority="low"
+      href="/_next/static/chunks/webpack-adb0bcedef76ed26.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+    />
+    <script src="/config.js" async=""></script>
+    <script
+      src="/_next/static/chunks/4bd1b696-2225b17114d13006.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/517-b2ab71301526dda2.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-app-f716d1d8434d3035.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/app/layout-1ecde706e601d63b.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/3a91511d-5c5d9b2737fa22c8.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/7e320fe9-e1ab3e5bedfc85f6.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/55-a49fd5895dd611db.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/464-9bd2937dd1bad713.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/651-00abff630c3ac98a.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/579-36864d8f64a4b5f7.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/114-8ee2395e84b97d98.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/94-6b5be46cb3fd5083.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/427-8280bb0e870863c0.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/713-e01b7635b29d6020.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/app/create-coin/page-2a98f274f030a7df.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      async=""
+    ></script>
+    <link
+      rel="preload"
+      href="/_next/static/css/e7eddfe4828c1690.css?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      as="style"
+    />
+    <meta name="next-size-adjust" content="" />
+    <title>CoinBlast | Create Solana Tokens in Seconds</title>
+    <meta
+      name="description"
+      content="CoinBlast | Create Solana Tokens in Seconds. No coding required. Launch tokens, manage authorities, and set up liquidity pools easily."
+    />
+    <meta
+      name="keywords"
+      content="coinfast,solana,token creation,cryptocurrency,coinblast,coinblast.fun,meme coins"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="256x256" />
+    <script
+      src="/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"
+      nomodule=""
+    ></script>
+    
+    <!-- Additional styles for enhanced layout -->
+    <style>
+      .coin-card {
+        transition: all 0.2s ease;
+      }
+      .coin-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+      .progress-ring {
+        transform: rotate(-90deg);
+      }
+      .progress-ring-circle {
+        transition: stroke-dashoffset 0.35s;
+        transform-origin: 50% 50%;
+      }
+      .social-icon {
+        transition: all 0.2s ease;
+      }
+      .social-icon:hover {
+        transform: scale(1.1);
+      }
+      .filter-panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+      .filter-panel.open {
+        max-height: 400px;
+      }
+      .detail-panel {
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+      }
+      .detail-panel.open {
+        transform: translateX(0);
+      }
+    </style>
+  </head>
+  <body class="__variable_4d318d __variable_ea5f4b antialiased">
+    
+    <!-- Main Layout -->
+    <div class="flex min-h-screen bg-neutral-900">
+      
+      <!-- Token Creation Panel (Left) -->
+      <div class="w-1/3 min-w-96 flex flex-col items-center justify-center bg-neutral-900 p-6 border-r border-neutral-700">
+        <h1 class="text-xl sm:text-2xl font-bold mb-2 text-white bg-indigo-600 px-4 py-2 rounded-lg text-center">
+          Create Your Own Coin FAST ⚡
+        </h1>
+        <p class="text-sm sm:text-base text-neutral-400 text-center mb-4">
+          Launch your own coin on Solana in seconds. No coding required.
+        </p>
+        
+        <!-- Token Creation Form Container -->
+        <div id="token-creation-form" class="w-full max-w-md">
+          <!-- The original token creation form will be loaded here -->
+        </div>
+      </div>
+      
+      <!-- Trending Panel (Right) -->
+      <div class="flex-1 flex flex-col bg-neutral-900">
+        
+        <!-- Header with Filters -->
+        <div class="p-4 border-b border-neutral-700 flex justify-between items-center">
+          <h2 class="text-xl font-bold text-white">Trending Coins</h2>
+          <div class="flex items-center space-x-3">
+            <button id="filter-btn" class="px-3 py-2 bg-neutral-700 hover:bg-neutral-600 text-white rounded-lg text-sm transition-colors flex items-center space-x-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+              </svg>
+              <span>Filter</span>
+            </button>
+            <span id="coin-count" class="text-sm text-neutral-400">Loading...</span>
+          </div>
+        </div>
+        
+        <!-- Filter Panel -->
+        <div id="filter-panel" class="filter-panel bg-neutral-800 border-b border-neutral-700">
+          <div class="p-4 space-y-4">
+            
+            <!-- Time Filter -->
+            <div>
+              <label class="block text-sm font-medium text-neutral-300 mb-2">Time Since Creation</label>
+              <select id="time-filter" class="w-full p-2 bg-neutral-700 border border-neutral-600 rounded-lg text-white">
+                <option value="all">All Time</option>
+                <option value="15m">Last 15 Minutes</option>
+                <option value="30m">Last 30 Minutes</option>
+                <option value="1h">Last Hour</option>
+                <option value="2h">Last 2 Hours</option>
+                <option value="6h">Last 6 Hours</option>
+                <option value="12h">Last 12 Hours</option>
+                <option value="24h">Last 24 Hours</option>
+                <option value="2d">Last 2 Days</option>
+                <option value="3d">Last 3 Days</option>
+                <option value="7d">Last 7 Days</option>
+              </select>
+            </div>
+            
+            <!-- Social Media Filters -->
+            <div>
+              <label class="block text-sm font-medium text-neutral-300 mb-2">Content & Social Media</label>
+              <div class="grid grid-cols-2 gap-2">
+                <label class="flex items-center space-x-2">
+                  <input type="checkbox" id="has-description" class="rounded bg-neutral-700 border-neutral-600">
+                  <span class="text-sm text-neutral-300">Has Description</span>
+                </label>
+                <label class="flex items-center space-x-2">
+                  <input type="checkbox" id="has-twitter" class="rounded bg-neutral-700 border-neutral-600">
+                  <span class="text-sm text-neutral-300">Has Twitter</span>
+                </label>
+                <label class="flex items-center space-x-2">
+                  <input type="checkbox" id="has-telegram" class="rounded bg-neutral-700 border-neutral-600">
+                  <span class="text-sm text-neutral-300">Has Telegram</span>
+                </label>
+                <label class="flex items-center space-x-2">
+                  <input type="checkbox" id="has-website" class="rounded bg-neutral-700 border-neutral-600">
+                  <span class="text-sm text-neutral-300">Has Website</span>
+                </label>
+              </div>
+            </div>
+            
+            <!-- Market Cap Filter -->
+            <div>
+              <label class="block text-sm font-medium text-neutral-300 mb-2">Market Cap Range (USD)</label>
+              <div class="flex space-x-2">
+                <input type="number" id="min-market-cap" placeholder="Min" class="flex-1 p-2 bg-neutral-700 border border-neutral-600 rounded-lg text-white">
+                <input type="number" id="max-market-cap" placeholder="Max" class="flex-1 p-2 bg-neutral-700 border border-neutral-600 rounded-lg text-white">
+              </div>
+            </div>
+            
+            <!-- Filter Actions -->
+            <div class="flex space-x-2">
+              <button id="apply-filters" class="flex-1 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors">
+                Apply Filters
+              </button>
+              <button id="reset-filters" class="px-4 py-2 bg-neutral-600 hover:bg-neutral-500 text-white rounded-lg transition-colors">
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="flex flex-1 overflow-hidden">
+          
+          <!-- Coin List -->
+          <div class="flex-1 overflow-y-auto p-4">
+            <div id="coin-list" class="grid gap-4">
+              <div class="text-center text-neutral-400 py-8">Loading trending data...</div>
+            </div>
+          </div>
+          
+          <!-- Detail Panel -->
+          <div id="detail-panel" class="detail-panel w-96 bg-neutral-800 border-l border-neutral-700 overflow-y-auto">
+            <div class="p-4 text-center text-neutral-400">
+              Select a coin to view details
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <!-- Enhanced JavaScript -->
+    <script>
+      // Global state
+      let allCoins = [];
+      let filteredCoins = [];
+      let selectedCoin = null;
+      let filters = {
+        timeFilter: 'all',
+        hasDescription: false,
+        hasTwitter: false,
+        hasTelegram: false,
+        hasWebsite: false,
+        minMarketCap: 0,
+        maxMarketCap: 0
+      };
+      
+      // Utility functions
+      function formatMarketCap(value) {
+        const num = parseFloat(value || 0);
+        if (num >= 1000000) return `$${(num / 1000000).toFixed(1)}M`;
+        if (num >= 1000) return `$${(num / 1000).toFixed(1)}K`;
+        return `$${num.toFixed(0)}`;
+      }
+      
+      function formatPrice(price) {
+        const num = parseFloat(price || 0);
+        if (num < 0.000001) return num.toExponential(2);
+        return num.toFixed(8);
+      }
+      
+      function formatTimeAgo(timestamp) {
+        const now = Date.now() / 1000;
+        const diff = now - timestamp;
+        
+        if (diff < 60) return `${Math.floor(diff)}s ago`;
+        if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+        if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+        return `${Math.floor(diff / 86400)}d ago`;
+      }
+      
+      function formatAddress(address) {
+        if (!address) return '';
+        return address.substring(0, 4) + '...' + address.slice(-4);
+      }
+      
+      function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+          showNotification('Copied to clipboard!');
+        }).catch(err => {
+          console.error('Failed to copy:', err);
+        });
+      }
+      
+      function showNotification(message) {
+        const notification = document.createElement('div');
+        notification.className = 'fixed top-4 right-4 bg-green-600 text-white px-4 py-2 rounded-lg z-50';
+        notification.textContent = message;
+        document.body.appendChild(notification);
+        setTimeout(() => notification.remove(), 3000);
+      }
+      
+      // Filter functions
+      function applyFilters(coins, filters) {
+        return coins.filter(coin => {
+          // Time filter
+          if (filters.timeFilter !== 'all') {
+            const now = Date.now() / 1000;
+            const coinAge = now - coin.created_timestamp;
+            const timeMap = {
+              '15m': 15 * 60,
+              '30m': 30 * 60,
+              '1h': 60 * 60,
+              '2h': 2 * 60 * 60,
+              '6h': 6 * 60 * 60,
+              '12h': 12 * 60 * 60,
+              '24h': 24 * 60 * 60,
+              '2d': 2 * 24 * 60 * 60,
+              '3d': 3 * 24 * 60 * 60,
+              '7d': 7 * 24 * 60 * 60
+            };
+            if (coinAge > timeMap[filters.timeFilter]) return false;
+          }
+          
+          // Social filters
+          if (filters.hasDescription && (!coin.description || coin.description.trim() === '')) return false;
+          if (filters.hasTwitter && !coin.twitter) return false;
+          if (filters.hasTelegram && !coin.telegram) return false;
+          if (filters.hasWebsite && !coin.website) return false;
+          
+          // Market cap filters
+          const marketCap = parseFloat(coin.usd_market_cap || 0);
+          if (filters.minMarketCap > 0 && marketCap < filters.minMarketCap) return false;
+          if (filters.maxMarketCap > 0 && marketCap > filters.maxMarketCap) return false;
+          
+          return true;
+        });
+      }
+      
+      // Fetch trending data
+      async function fetchTrendingData() {
+        try {
+          const response = await fetch('/api/pump');
+          if (!response.ok) throw new Error(`API returned ${response.status} error`);
+          const data = await response.json();
+          allCoins = data || [];
+          updateFilteredCoins();
+          renderCoinList();
+          updateCoinCount();
+        } catch (error) {
+          console.error('Error fetching trending data:', error);
+          displayFallbackData();
+        }
+      }
+      
+      function displayFallbackData() {
+        allCoins = [{
+          address: "EDuHvMKwAddbhxN8CsFzKA38uBL9iEz8ToHB97ZDpump",
+          name: "DEMO TOKEN",
+          symbol: "DEMO",
+          created_timestamp: Date.now() / 1000,
+          complete: 0,
+          last_trade_timestamp: Date.now() / 1000,
+          usd_market_cap: "50000.00",
+          price: 0.00005,
+          progress: 0.85,
+          total_supply: 1000000000,
+          status: 0,
+          logo: "https://via.placeholder.com/150x150/4338ca/ffffff?text=DEMO",
+          holder_count: 125,
+          volume_24h: "25000.00",
+          description: "This is a demonstration token showing how descriptions appear when the external API is unavailable."
+        }];
+        updateFilteredCoins();
+        renderCoinList();
+        updateCoinCount();
+      }
+      
+      function updateFilteredCoins() {
+        filteredCoins = applyFilters(allCoins, filters);
+      }
+      
+      function updateCoinCount() {
+        const countElement = document.getElementById('coin-count');
+        if (countElement) {
+          countElement.textContent = `${filteredCoins.length} / ${allCoins.length} coins`;
+        }
+      }
+      
+      // Render coin list
+      function renderCoinList() {
+        const container = document.getElementById('coin-list');
+        if (!container) return;
+        
+        if (filteredCoins.length === 0) {
+          container.innerHTML = '<div class="text-center text-neutral-400 py-8">No coins match your filters</div>';
+          return;
+        }
+        
+        const coinsHtml = filteredCoins.map(coin => createCoinCard(coin)).join('');
+        container.innerHTML = coinsHtml;
+      }
+      
+      function createCoinCard(coin) {
+        const description = coin.description && coin.description.trim() !== '' 
+          ? coin.description 
+          : 'No description available';
+        
+        const progress = Math.min((coin.progress || 0) * 100, 100);
+        
+        return `
+          <div class="coin-card bg-neutral-800 rounded-lg p-4 cursor-pointer hover:bg-neutral-700 transition-colors" 
+               onclick="selectCoin('${coin.address}')">
+            <div class="flex space-x-4">
+              
+              <!-- Coin Image -->
+              <img src="${coin.logo || 'https://via.placeholder.com/80x80/4338ca/ffffff?text=' + (coin.symbol || 'T')}" 
+                   alt="${coin.name || 'Token'}" 
+                   class="w-20 h-20 rounded-lg object-cover flex-shrink-0"
+                   onerror="this.src='https://via.placeholder.com/80x80/4338ca/ffffff?text=${(coin.symbol || 'T').charAt(0)}'">
+              
+              <!-- Coin Info -->
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center justify-between mb-2">
+                  <h3 class="text-white font-semibold truncate">${coin.name || 'Unknown Token'}</h3>
+                  <span class="text-sm text-neutral-400">${coin.symbol || 'N/A'}</span>
+                </div>
+                
+                <p class="text-sm text-neutral-400 mb-3 line-clamp-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                  ${description}
+                </p>
+                
+                <div class="grid grid-cols-2 gap-2 text-xs mb-3">
+                  <div>
+                    <span class="text-neutral-500">Market Cap:</span>
+                    <span class="text-green-400 ml-1">${formatMarketCap(coin.usd_market_cap)}</span>
+                  </div>
+                  <div>
+                    <span class="text-neutral-500">Holders:</span>
+                    <span class="text-white ml-1">${coin.holder_count || 0}</span>
+                  </div>
+                  <div>
+                    <span class="text-neutral-500">Created:</span>
+                    <span class="text-neutral-400 ml-1">${formatTimeAgo(coin.created_timestamp)}</span>
+                  </div>
+                  <div>
+                    <span class="text-neutral-500">Address:</span>
+                    <span class="text-neutral-400 ml-1">${formatAddress(coin.address)}</span>
+                  </div>
+                </div>
+                
+                <!-- Progress Bar -->
+                <div class="w-full bg-neutral-600 rounded-full h-2 mb-3">
+                  <div class="bg-indigo-600 h-2 rounded-full transition-all duration-300" style="width: ${progress}%"></div>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="flex items-center space-x-2">
+                  <button onclick="event.stopPropagation(); window.open('https://pump.fun/${coin.address}', '_blank')" 
+                          class="social-icon p-1 bg-neutral-700 hover:bg-neutral-600 rounded text-xs text-neutral-300 hover:text-white transition-colors">
+                    🌐 Pump.fun
+                  </button>
+                  ${coin.twitter ? `
+                    <button onclick="event.stopPropagation(); window.open('https://x.com/${coin.twitter}', '_blank')" 
+                            class="social-icon p-1 bg-blue-600 hover:bg-blue-500 rounded text-xs text-white transition-colors">
+                      🐦 Twitter
+                    </button>
+                  ` : ''}
+                  ${coin.telegram ? `
+                    <button onclick="event.stopPropagation(); window.open('${coin.telegram}', '_blank')" 
+                            class="social-icon p-1 bg-blue-500 hover:bg-blue-400 rounded text-xs text-white transition-colors">
+                      📱 Telegram
+                    </button>
+                  ` : ''}
+                  ${coin.website ? `
+                    <button onclick="event.stopPropagation(); window.open('${coin.website}', '_blank')" 
+                            class="social-icon p-1 bg-green-600 hover:bg-green-500 rounded text-xs text-white transition-colors">
+                      🌍 Website
+                    </button>
+                  ` : ''}
+                  <button onclick="event.stopPropagation(); copyToClipboard('${coin.address}')" 
+                          class="social-icon p-1 bg-neutral-700 hover:bg-neutral-600 rounded text-xs text-neutral-300 hover:text-white transition-colors">
+                    📋 Copy
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+      
+      // Select coin and show details
+      function selectCoin(address) {
+        selectedCoin = allCoins.find(coin => coin.address === address);
+        if (selectedCoin) {
+          renderDetailPanel();
+          showDetailPanel();
+        }
+      }
+      
+      function renderDetailPanel() {
+        const panel = document.getElementById('detail-panel');
+        if (!panel || !selectedCoin) return;
+        
+        const coin = selectedCoin;
+        
+        panel.innerHTML = `
+          <div class="p-4">
+            <!-- Header -->
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-bold text-white">Token Details</h3>
+              <button onclick="hideDetailPanel()" class="text-neutral-400 hover:text-white text-xl">×</button>
+            </div>
+            
+            <!-- Coin Info -->
+            <div class="flex items-center space-x-3 mb-4">
+              <img src="${coin.logo}" alt="${coin.name}" class="w-12 h-12 rounded-full object-cover">
+              <div>
+                <h4 class="text-white font-semibold">${coin.name}</h4>
+                <p class="text-neutral-400 text-sm">${coin.symbol}</p>
+              </div>
+            </div>
+            
+            <!-- Description -->
+            <div class="mb-4">
+              <h5 class="text-white font-medium mb-2">Description</h5>
+              <p class="text-neutral-400 text-sm">
+                ${coin.description && coin.description.trim() !== '' ? coin.description : 'No description available'}
+              </p>
+            </div>
+            
+            <!-- GMGN Chart -->
+            <div class="mb-4">
+              <h5 class="text-white font-medium mb-2">Price Chart</h5>
+              <div class="bg-neutral-700 rounded-lg overflow-hidden">
+                <iframe src="https://www.gmgn.cc/kline/sol/${coin.address}" 
+                        width="100%" height="300" 
+                        style="border: none;" 
+                        class="bg-neutral-700">
+                </iframe>
+              </div>
+            </div>
+            
+            <!-- Basic Info -->
+            <div class="mb-4">
+              <h5 class="text-white font-medium mb-2">Basic Info</h5>
+              <div class="space-y-2 text-sm">
+                <div class="flex justify-between">
+                  <span class="text-neutral-400">Holders:</span>
+                  <span class="text-white">${coin.holder_count || 0}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-neutral-400">Price:</span>
+                  <span class="text-white">$${formatPrice(coin.price)}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-neutral-400">Market Cap:</span>
+                  <span class="text-green-400">${formatMarketCap(coin.usd_market_cap)}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-neutral-400">24h Volume:</span>
+                  <span class="text-white">${formatMarketCap(coin.volume_24h)}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-neutral-400">Created:</span>
+                  <span class="text-neutral-400">${formatTimeAgo(coin.created_timestamp)}</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Contract Address -->
+            <div class="mb-4">
+              <h5 class="text-white font-medium mb-2">Contract Address</h5>
+              <div class="bg-neutral-700 p-2 rounded text-xs font-mono text-neutral-300 break-all">
+                ${coin.address}
+              </div>
+            </div>
+            
+            <!-- Fast Buy Links -->
+            <div class="mb-4">
+              <h5 class="text-white font-medium mb-2">Fast Buy</h5>
+              <div class="grid grid-cols-2 gap-2">
+                <button onclick="window.open('https://axiom.trade/t/${coin.address}/@gmail', '_blank')" 
+                        class="p-2 bg-purple-600 hover:bg-purple-700 text-white rounded text-sm transition-colors">
+                  Axiom
+                </button>
+                <button onclick="window.open('https://t.me/pepeboost_sol05_bot?start=ref_0h70jz_ca_${coin.address}', '_blank')" 
+                        class="p-2 bg-green-600 hover:bg-green-700 text-white rounded text-sm transition-colors">
+                  Pepeboost
+                </button>
+                <button onclick="window.open('https://t.me/gmgnaibot?start=i_XqhPEmrY_sol_${coin.address}', '_blank')" 
+                        class="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded text-sm transition-colors">
+                  GMGN Bot
+                </button>
+                <button onclick="window.open('https://gmgn.ai/sol/token/XqhPEmrY_${coin.address}', '_blank')" 
+                        class="p-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded text-sm transition-colors">
+                  GMGN
+                </button>
+              </div>
+            </div>
+            
+            <!-- Actions -->
+            <div class="flex space-x-2">
+              <button onclick="copyToClipboard('${coin.address}')" 
+                      class="flex-1 p-2 bg-neutral-700 hover:bg-neutral-600 text-white rounded transition-colors">
+                Copy Address
+              </button>
+              <button onclick="window.open('https://pump.fun/${coin.address}', '_blank')" 
+                      class="flex-1 p-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors">
+                View on Pump.fun
+              </button>
+            </div>
+          </div>
+        `;
+      }
+      
+      function showDetailPanel() {
+        const panel = document.getElementById('detail-panel');
+        if (panel) {
+          panel.classList.add('open');
+        }
+      }
+      
+      function hideDetailPanel() {
+        const panel = document.getElementById('detail-panel');
+        if (panel) {
+          panel.classList.remove('open');
+        }
+        selectedCoin = null;
+      }
+      
+      // Filter UI functions
+      function toggleFilters() {
+        const panel = document.getElementById('filter-panel');
+        const btn = document.getElementById('filter-btn');
+        
+        if (panel.classList.contains('open')) {
+          panel.classList.remove('open');
+          btn.innerHTML = `
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+            </svg>
+            <span>Filter</span>
+          `;
+        } else {
+          panel.classList.add('open');
+          btn.innerHTML = `
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+            <span>Close</span>
+          `;
+        }
+      }
+      
+      function applyFiltersFromUI() {
+        filters = {
+          timeFilter: document.getElementById('time-filter').value,
+          hasDescription: document.getElementById('has-description').checked,
+          hasTwitter: document.getElementById('has-twitter').checked,
+          hasTelegram: document.getElementById('has-telegram').checked,
+          hasWebsite: document.getElementById('has-website').checked,
+          minMarketCap: parseFloat(document.getElementById('min-market-cap').value) || 0,
+          maxMarketCap: parseFloat(document.getElementById('max-market-cap').value) || 0
+        };
+        
+        updateFilteredCoins();
+        renderCoinList();
+        updateCoinCount();
+        
+        // Update filter button to show active state
+        const btn = document.getElementById('filter-btn');
+        const hasActiveFilters = filters.timeFilter !== 'all' || 
+          filters.hasDescription || filters.hasTwitter || filters.hasTelegram || 
+          filters.hasWebsite || filters.minMarketCap > 0 || filters.maxMarketCap > 0;
+        
+        if (hasActiveFilters) {
+          btn.classList.add('bg-indigo-600', 'hover:bg-indigo-700');
+          btn.classList.remove('bg-neutral-700', 'hover:bg-neutral-600');
+        } else {
+          btn.classList.remove('bg-indigo-600', 'hover:bg-indigo-700');
+          btn.classList.add('bg-neutral-700', 'hover:bg-neutral-600');
+        }
+      }
+      
+      function resetFilters() {
+        filters = {
+          timeFilter: 'all',
+          hasDescription: false,
+          hasTwitter: false,
+          hasTelegram: false,
+          hasWebsite: false,
+          minMarketCap: 0,
+          maxMarketCap: 0
+        };
+        
+        // Reset UI
+        document.getElementById('time-filter').value = 'all';
+        document.getElementById('has-description').checked = false;
+        document.getElementById('has-twitter').checked = false;
+        document.getElementById('has-telegram').checked = false;
+        document.getElementById('has-website').checked = false;
+        document.getElementById('min-market-cap').value = '';
+        document.getElementById('max-market-cap').value = '';
+        
+        applyFiltersFromUI();
+      }
+      
+      // Initialize
+      document.addEventListener('DOMContentLoaded', function() {
+        // Set up event listeners
+        document.getElementById('filter-btn').addEventListener('click', toggleFilters);
+        document.getElementById('apply-filters').addEventListener('click', applyFiltersFromUI);
+        document.getElementById('reset-filters').addEventListener('click', resetFilters);
+        
+        // Load token creation form
+        loadTokenCreationForm();
+        
+        // Fetch trending data
+        fetchTrendingData();
+        
+        // Refresh every 7 seconds
+        setInterval(fetchTrendingData, 7000);
+      });
+      
+      // Load the original token creation form
+      function loadTokenCreationForm() {
+        // This will be populated by the original Next.js components
+        const container = document.getElementById('token-creation-form');
+        if (container) {
+          container.innerHTML = '<div class="text-center text-neutral-400">Token creation form loading...</div>';
+        }
+      }
+    </script>
+    
+    <!-- Original Next.js Scripts -->
+    <script>
+      (self.__next_f = self.__next_f || []).push([0]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '1:"$Sreact.fragment"\n2:I[53704,["177","static/chunks/app/layout-1ecde706e601d63b.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"],""]\n3:I[85407,["177","static/chunks/app/layout-1ecde706e601d63b.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"],"default"]\n4:I[15244,[],""]\n5:I[43866,[],""]\n6:I[73646,["956","static/chunks/3a91511d-5c5d9b2737fa22c8.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","600","static/chunks/7e320fe9-e1ab3e5bedfc85f6.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","55","static/chunks/55-a49fd5895dd611db.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","464","static/chunks/464-9bd2937dd1bad713.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","651","static/chunks/651-00abff630c3ac98a.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","579","static/chunks/579-36864d8f64a4b5f7.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","114","static/chunks/114-8ee2395e84b97d98.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","94","static/chunks/94-6b5be46cb3fd5083.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","427","static/chunks/427-8280bb0e870863c0.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","713","static/chunks/713-e01b7635b29d6020.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","259","static/chunks/app/create-coin/page-2a98f274f030a7df.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"],"TokenCreationForm"]\n7:I[68476,["956","static/chunks/3a91511d-5c5d9b2737fa22c8.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","600","static/chunks/7e320fe9-e1ab3e5bedfc85f6.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","55","static/chunks/55-a49fd5895dd611db.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","464","static/chunks/464-9bd2937dd1bad713.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","651","static/chunks/651-00abff630c3ac98a.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","579","static/chunks/579-36864d8f64a4b5f7.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","114","static/chunks/114-8ee2395e84b97d98.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","94","static/chunks/94-6b5be46cb3fd5083.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","427","static/chunks/427-8280bb0e870863c0.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","713","static/chunks/713-e01b7635b29d6020.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","259","static/chunks/app/create-coin/page-2a98f274f030a7df.js?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi"],"default"]\n8:I[86213,[],"OutletBoundary"]\na:I[86213,[],"MetadataBoundary"]\nc:I[86213,[],"ViewportBoundary"]\ne:I[34835,[],""]\n:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/css/89420e95f079f7be.css?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","style"]\n:HL["/_next/static/css/e7eddfe4828c1690.css?dpl=dpl_AZa29Fm7QrvC376Ea3z7TMtAGJoi","style"]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([1, "9:null\n"]);
+    </script>
+  </body>
+</html> 
